@@ -18,8 +18,8 @@ int main() {
     std::cin >> x;
 
     std::cout << "Enter an integer " << x << '\n';
-    std::cout << "Double  " << x << " is" << x * 2 << '\n';
-    std::cout << "Triple  " << x << " is" << x * 3 << '\n';
+    std::cout << "Double  " << x << "is " << x * 2 << '\n';
+    std::cout << "Triple  " << x << "is " << x * 3 << '\n';
 
     return 0;
 }
