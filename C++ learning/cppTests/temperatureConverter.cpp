@@ -29,5 +29,5 @@ int main() {
 
     converted_message(messageToConvert());
 
-    return 0;
+    std::cin.get();
 }

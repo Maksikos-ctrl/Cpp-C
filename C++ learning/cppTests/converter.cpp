@@ -27,5 +27,5 @@ int main() {
 
     convertedMessage(converterToFeets());
     
-    return 0;
+    std::cin.get();
 }
