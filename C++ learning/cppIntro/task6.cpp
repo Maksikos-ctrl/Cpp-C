@@ -8,7 +8,7 @@ using namespace std;
 double enterNums() {
     cout << "Enter a double value: ";
     double x{};
-    cin > x;
+    cin >> x;
     
 
     return x;
@@ -26,7 +26,7 @@ char enterOperation(){
 
 
 void enterRes(double x, char z, double y) {
-    z == '+' ? cout << x << " + " << y << " is " << x + y << "\n" : z == '-' ? cout << x << " - " << y << " is " << x - y << "\n" : z == '*' ? cout << x << " * " << y << " is " << x * y << "\n" : z == '/' ? cout << x << " / " << y << " is " << x / y << "\n" : cout << "U entered wrong operation or didn't enter at all";
+    (z == '+') ? (cout << x << " + " << y << " is " << x + y << "\n") : (z == '-') ? (cout << x << " - " << y << " is " << x - y << "\n") : (z == '*') ? (cout << x << " * " << y << " is " << x * y << "\n") : (z == '/') ? (cout << x << " / " << y << " is " << x / y << "\n") : (cout << "U entered wrong operation or didn't enter at all");
 
 }
 
