@@ -15,6 +15,8 @@ int multiplying() {
     cout << "Enter second float num: " << y << endl;   
 
     float m = x * y;
+
+  
     return m;
 
 
@@ -22,21 +24,12 @@ int multiplying() {
 }
 
 
-
-
-void productMessage(float m) {
-
-    float res = m - 0b10000001; 
-
-    cout << "Result of multiplying 2 nums is: " << res << endl;
-
-}
-
-
 int main() {
 
 
-    productMessage(multiplying());
+    multiplying();
+
+   cout << "Enter second float num: " << m << endl;   
 
     return 0;
 }

@@ -47,22 +47,22 @@ int main() {
 // Learn Cpp.com's solve
 
 
-bool solve() {
-    return (x == 2 || x == 3 || x == 5 || x == 7);
-}
+// bool solve() {
+//     return (x == 2 || x == 3 || x == 5 || x == 7);
+// }
 
-int main() {
+// int main() {
 
-    std::cout << "Enter a number 0 through 9: ";
-    int x {};
-    std::cin >> x;
+//     std::cout << "Enter a number 0 through 9: ";
+//     int x {};
+//     std::cin >> x;
 
-    if (sole(x) )
-        std::cout << "The digit is prime\n";
-    else
-        std::cout << "The digit is not prime\n";
+//     if (sole(x) )
+//         std::cout << "The digit is prime\n";
+//     else
+//         std::cout << "The digit is not prime\n";
 
-    return 0;
+//     return 0;
 
-    return 0;
-}
+//     return 0;
+// }
