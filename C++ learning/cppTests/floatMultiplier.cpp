@@ -16,7 +16,7 @@ int multiplying() {
 
     float m = x * y;
 
-  
+    cout << "Enter second float num: " << m << endl;   
     return m;
 
 
@@ -28,8 +28,6 @@ int main() {
 
 
     multiplying();
-
-   cout << "Enter second float num: " << m << endl;   
 
     return 0;
 }

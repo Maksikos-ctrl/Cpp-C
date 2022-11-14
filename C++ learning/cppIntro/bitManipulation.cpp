@@ -2,7 +2,7 @@
 #include <cstdint>
 
 
-/* write The following program asks the user to enter a 32-bit hexadecimal value, and then extracts the 8-bit color values for R, G, B, and A.*/
+/* write The following program which asks the user to enter a 32-bit hexadecimal value, and then extracts the 8-bit color values for R, G, B, and A.*/
 
 
 int main() {
