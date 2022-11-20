@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 
-int calculations(int* arr, int n);
+int calculations(int *arr, int n);
 
 int main() {
    
@@ -18,12 +18,14 @@ int main() {
 
 int calculations(int *arr, int n) {
     int i, imin, min;
-    min = arr[0];
+    // min = arr[0];
+    min = *arr;
     
 
     for (i = 1; i < n; ++i) {
-        if (arr[i] < min) {
-            min = arr[i];
+        if ((*(arr + i)) < min) {
+            // min = arr[i];
+            min = *(arr + i);
             
         }
         

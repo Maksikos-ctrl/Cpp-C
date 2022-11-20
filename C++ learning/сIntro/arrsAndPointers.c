@@ -29,7 +29,7 @@ int main() {
     printf("Enter 5 nums: ");
 
     for (int j = 0; j < 5; ++j) {
-        // Equivalent to scanf("%d", &x[j])
+        // Equivalent to scanf("%d", &pole[j])
         scanf("%d", pole+j);
 
         // Equivalent to sum += x[j]
